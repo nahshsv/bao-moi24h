@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Báo mới 24h</title>
+        <meta charset="utf-8">
+        <style>
+            .main-pic{
+                width: 400px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .parent{
+                width: 800px;
+                height: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                border:1px solid rgb(212, 226, 228)
+            }
+            .parent1{
+                width: 700px;
+                height: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .child-pic{
+                width:100% ;
+                height:450 px;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 20px;
+            }
+            h1{
+                font-size: 40px;
+            }
+            h2{
+                font-size: 30px;
+            }
+            #Signature{
+                display: block;
+                margin-left: 70%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main-pic">
+            <img id="pic-thanhnien"src="data:image/png;base64,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" alt="Báo thanh niên">
+        </div>
+        <div class="parent">
+            <div class="parent1">
+                <h1>Ngoại trưởng Antony Blinken dự Lễ khởi công trụ sở Đại sứ quán Hoa Kỳ tại Hà Nội</h1>
+                <h2>Ngày 15/4, trong khuôn khổ chuyến thăm chính thức Việt Nam, Ngoại trưởng Hoa Kỳ Antony Blinken đã tham dự Lễ khởi công Khu phức hợp Đại sứ quán Hoa Kỳ tại Hà Nội.</h2>
+                <img class="child-pic" src="https://cdn.baoquocte.vn/stores/news_dataimages/2023/042023/15/11/dsc-822520230415114520.jpg?rt=20230415114928" alt="Ngoại trưởng Hoa Kỳ Antony Blinken phát biểu tại Lễ khởi công Khu phức hợp Đại sứ quán Hoa Kỳ tại Hà Nội ngày 15/4. (Ảnh: Minh Quân)">
+                <p>Tham dự sự kiện, về phía Hoa Kỳ có Ngoại trưởng Antony Blinken, Đại sứ Marc Knapper.Về phía Việt Nam có Bộ trưởng Ngoại giao Bùi Thanh Sơn, Thứ trưởng Ngoại giao Hà Kim Ngọc, Phó Chủ tịch UBND Thành phố Hà Nội Dương Đức Tuấn; Phó Chủ nhiệm Ủy ban Đối ngoại Quốc hội Lê Thu Hà; đại diện một số bộ, ngành, cơ quan cùng phóng viên báo chí trong và ngoài nước.</p>
+                <p>Hành trình hơn ba thập niên Phát biểu tại Lễ khởi công, Đại sứ Hoa Kỳ tại Việt Nam Marc Knapper đã gửi lời cảm ơn đóng góp không biết mệt mỏi từ hai phía, bao gồm Đại sứ tiền nhiệm, Trợ lý Ngoại trưởng Mỹ phụ trách các vấn đề Đông Á Daniel Kritenbrink, các cán bộ ngoại giao, nhân viên Đại sứ quán, cũng như phía Việt Nam đã tạo điều kiện thuận lợi cho dự án này.</p>
+                <img class="child-pic" src="https://i1-vnexpress.vnecdn.net/2022/02/17/dai-su-my-1220-1645083521-1645-1212-6202-1645088977.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=KHfUEaYVtlhe31XJdh3ksg" alt="Đại sứ Marc Knapper">
+                <p>Ngoại trưởng Hoa Kỳ Antony Blinken hồi tưởng quá trình hình thành, phát triển của Đại sứ quán Hoa Kỳ tại Việt Nam, bắt đầu từ khi cựu Ngoại trưởng Christopher Warren tới Hà Nội và đặt nền móng cho quan hệ hợp tác hai nước (năm 1995). Từ 30 người, đến nay, số lượng cán bộ, nhân viên ngoại giao công tác tại Cơ quan đại diện Hoa Kỳ tại Việt Nam đã lên tới 600 người.
+                <p>Ông khẳng định, trong hơn 27 năm qua, đội ngũ nhân viên ngoại giao Hoa Kỳ tại Hà Nội và Thành phố Hồ Chí Minh đã đóng góp, xây dựng mối quan hệ song phương thêm mạnh mẽ, hiệu quả, vì lợi ích của nhân dân hai nước, khu vực và thế giới, đặc biệt trong dịp hai nước đang kỷ niệm 10 năm quan hệ Đối tác toàn diện (2013-2023).</p> 
+                <p>Ngoại trưởng Blinken mong rằng, Khu phức hợp sẽ mở ra nhiều "cây cầu của hợp tác" hơn nữa giữa Hoa Kỳ-Việt Nam.</p>
+                <img class="child-pic"src="https://photo-cms-tpo.epicdn.me/w645/Uploaded/2023/aobsvhu/2023_04_15/screen-shot-2023-04-15-at-103501-am-7763.png" alt="">
+                <p>Biểu tượng mới của quan hệ Việt Nam-Hoa Kỳ Dự án xây dựng Khu phức hợp Đại sứ quán Hoa Kỳ tại Việt Nam lần đầu tiên được công bố trong khuôn khổ chuyến thăm Việt Nam của Phó Tổng thống Hoa Kỳ Kamala Harris tháng 8/2021.Khu phức hợp có diện tích 3,2 hecta, với quy mô xây dựng 39.000 m2 tại Lô D30, đường Phạm Văn Bạch, quận Cầu Giấy, thành phố Hà Nội. Công trình do EYP Architecture & Engineering thiết kế và B.L Harbert International phụ trách xây dựng.</p>
+                <p>Thiết kế của công trình sẽ là sự kết hợp giữa cảnh quan đô thị hiện đại và vẻ đẹp tự nhiên của thành phố Hà Nội. Vật liệu dùng để xây dựng được lấy cảm hứng từ Vịnh Hạ Long. Kiến trúc bằng đá bazan trong khối nhà chính tượng trưng cho sức mạnh và sự ổn định, trong khi mái che bằng kính và tấm thép không gỉ sẽ phản chiếu hình ảnh của bầu trời và tạo cảm giác rộng mở.</p> 
+                <p>Khuôn viên Đại sứ quán sẽ có một ao sen, quốc hoa của Việt Nam, biểu tượng cho sự thanh cao, lòng cam kết và lạc quan về tương lai. Khu phúc hợp cũng phản ánh cam kết của Hoa Kỳ với tính bền vững về môi trường và khả năng chống chịu với biến đổi khí hậu, hướng tới mục tiêu đạt được chứng chỉ cấp Bạc hoặc cao hơn theo “Tiêu chuẩn quốc tế về thiết kế đạt chuẩn hàng đầu về năng lượng và môi trường” (LEED) của Hội đồng Công trình xanh Hoa Kỳ</p>
+                <p id="Signature">Trần Tuấn Anh</p>
+            
+            
+            </div>
+        </div>
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
